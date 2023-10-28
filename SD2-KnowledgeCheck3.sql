@@ -5,5 +5,6 @@ WHERE OrderID = 10310;
 
 SELECT Address
 FROM Suppliers
-JOIN Products ON Suppliers.SupplierID = Products.SupplierID
+JOIN Products 
+ON Suppliers.SupplierID = Products.SupplierID
 WHERE ProductID = 40;
