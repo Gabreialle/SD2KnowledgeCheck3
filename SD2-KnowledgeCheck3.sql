@@ -1,6 +1,7 @@
 SELECT CustomerName
 FROM Customers
-JOIN Orders ON Customers.CustomerID = Orders.CustomerID
+JOIN Orders 
+ON Customers.CustomerID = Orders.CustomerID
 WHERE OrderID = 10310;
 
 SELECT Address
